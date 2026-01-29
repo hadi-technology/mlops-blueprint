@@ -14,8 +14,7 @@ This project demonstrates a **multi-stage** ML system designed to detect anamolo
 
 Checkout this [blog post](https://mfadhel.com/mlops-blueprint/) outlining the motivation for this repository. 
 
-You will need existing k8s clusters to to execute the machine learning pipelines in this repo (preferably one per environment) which are deployed via ArgoCD. If you need help with this requirement, check out our [existing templates](https://github.com/hadii-tech/cloud-infra) to quickly setup and deploy your own production-ready k8s clusters pre-configred with monitoring, logging, and alerting capabilities in Digital Ocean.
-
+You will need existing k8s clusters to to execute the machine learning pipelines in this repo (preferably one per environment) which are deployed via ArgoCD.
 ---
 
 ##  Stages of the Pipeline
